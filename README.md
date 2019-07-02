@@ -1,2 +1,6 @@
 # mini-projects
-Small useless projects while I learn machine learning
+
+
+TODO:
+- Word cloud from pages of reddit
+- Web browser hosted on Raspberry Pi
