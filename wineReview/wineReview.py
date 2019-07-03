@@ -14,9 +14,9 @@ PATH = 'winemag-data_first150k.csv'
 
 data = pd.read_csv(PATH)
 
-## Data cleaning
-## Only keeping countries with more than 1000 wines
-## Combining all descriptions of wines from a country into one large feature
+# Data cleaning
+# Only keeping countries with more than 1000 wines
+# Combining all descriptions of wines from a country into one large feature
 countedCountries = data.groupby('country')['description'].nunique().sort_values(ascending=False).reset_index(name='count')
 countriesToKeep = countedCountries[countedCountries['count'] > 1000]
 countriesToKeepList = countriesToKeep['country'].tolist()
