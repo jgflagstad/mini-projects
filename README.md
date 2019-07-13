@@ -1,6 +1,3 @@
 # mini-projects
 
-
-TODO:
-- Word cloud from pages of reddit
-- Web browser hosted on Raspberry Pi
+Small projects that I work on when I'm bored
